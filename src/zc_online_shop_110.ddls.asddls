@@ -3,9 +3,7 @@
 @Metadata.allowExtensions: true
 define root view entity ZC_ONLINE_SHOP_110
   as projection on ZI_ONLINE_SHOP_110
-{
-
-  key Order_Uuid,  
+{ key Order_Uuid,  
       Order_Id,
       Ordereditem,
       Deliverydate,
